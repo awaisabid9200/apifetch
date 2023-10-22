@@ -1,7 +1,10 @@
-import 'package:apifetch/Models/article.dart';
-import 'package:apifetch/Screen/Share_item.dart';
-import 'package:apifetch/Screen/liked_articles.dart';
+
+
 import 'package:flutter/material.dart';
+
+import '../Controllers/Share_item.dart';
+import '../Controllers/liked_articles.dart';
+import '../Models/article.dart';
 
 class LikedArticlesScreen extends StatefulWidget {
   LikedArticlesScreen({super.key});

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'SpinKit.dart';
+import '../Controllers/SpinKit.dart';
 
 Future openInApp({required String url, bool inApp = false}) async {
   if (await canLaunch(url)) {

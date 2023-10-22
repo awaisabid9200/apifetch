@@ -1,15 +1,14 @@
-import 'package:apifetch/Screen/Share_item.dart';
-import 'package:apifetch/Screen/article_screen.dart';
+import 'package:apifetch/MainScreens/article_screen.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 import 'package:apifetch/Models/article.dart';
-import 'package:apifetch/Screen/liked_articles.dart';
-import 'package:apifetch/Screen/liked_articles_screen.dart';
+import 'package:apifetch/MainScreens/liked_articles_screen.dart';
 import 'package:apifetch/Services/api_sevices.dart';
 import 'package:badges/badges.dart' as badges;
-
-import '../Screen/SpinKit.dart';
+import '../Controllers/Share_item.dart';
+import '../Controllers/SpinKit.dart';
+import '../Controllers/liked_articles.dart';
 
 class AppleScreen extends StatefulWidget {
   @override
